@@ -80,7 +80,7 @@ export const ContactSection =() =>{
                             <Linkedin />
                         </a>
 
-                        <a href="https://www.instagram.com/lazy_graphite?igsh=MTdibHc4aHF2b2d1Zg=="
+                        <a href="https://www.instagram.com/pickaxeoo?igsh=MXJmZWdzOGo3dTF6Yw=="
                         target="_blank"
                         className="hover:text-primary">
                             <Instagram />
