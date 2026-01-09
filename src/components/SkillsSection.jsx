@@ -4,26 +4,26 @@ import { cn } from "../lib/utils";
 
 const skills =[
     //Frontend
-    {name: "HTML",level: 85, category: "Frontend"},
-    {name: "CSS",level: 85, category: "Frontend"},
-    {name: "React",level: 85, category: "Frontend"},
-    {name: "JavaScript",level: 80, category: "Frontend"},
-    {name : "Tailwind CSS", level: 80, category: "Frontend"},
-    {name : "Bootstrap", level: 80, category: "Frontend"},
-    {name : "Flutter", level: 85, category: "Frontend"},
+    {name: "HTML",level: 90, category: "Frontend"},
+    {name: "CSS",level: 90, category: "Frontend"},
+    {name: "React",level: 90, category: "Frontend"},
+    {name: "JavaScript",level: 85, category: "Frontend"},
+    {name : "Tailwind CSS", level: 85, category: "Frontend"},
+    {name : "Bootstrap", level: 85, category: "Frontend"},
+    {name : "Flutter", level: 75, category: "Frontend"},
 
     //Backend
-    {name: "MongoDB",level: 85, category: "Backend"},
-    {name: "Node.js",level: 80, category: "Backend"},
-    {name: "Express.js",level: 80, category: "Backend"},
-    {name : "Dart", level: 85, category: "Backend"},
+    {name: "MongoDB",level: 90, category: "Backend"},
+    {name: "Node.js",level: 85, category: "Backend"},
+    {name: "Express.js",level: 85, category: "Backend"},
+    {name : "Dart", level: 75, category: "Backend"},
 
     //Tools
-    {name: "Git/Github",level: 90, category: "Tools"},
-    {name : "vscode", level: 90, category: "Tools"},
-    {name : "Postman", level: 85, category: "Tools"},
+    {name: "Git/Github",level: 95, category: "Tools"},
+    {name : "vscode", level: 95, category: "Tools"},
+    {name : "Postman", level: 90, category: "Tools"},
     {name : "npm", level: 85, category: "Tools"},
-    {name : "restful APIs", level: 80, category: "Tools"},
+    {name : "restful APIs", level: 85, category: "Tools"},
 ]
 
 const categories = ["all", "frontend", "backend", "tools"];
