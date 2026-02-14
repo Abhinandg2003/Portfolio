@@ -1,36 +1,37 @@
 import { ArrowDown } from "lucide-react";
+import LogoSlider from "./LogoSlider";
 
 export const HeroSection = () => {
     return (
     <section 
     id="home" 
     className="relative min-h-screen flex flex-col items-center justify-center px-4">
-    <div className="container max-w-4xl mx-auto text-center z-10">
-        <div className="space-y-6">
-            <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
-                <span className="opacity-0 animate-fade-in"> Hi</span>
-                <span className="opacity-0 animate-fade-in-delay-2"> I'm</span>
-                <span className="text-primary opacity-0 animate-fade-in-delay-4"> Abhinand</span>
-                <span className="text-primary ml-2 opacity-0 animate-fade-in-delay-4"> G</span>
-            </h1>
+    <div className="container max-w-7xl md:max-w-4xl mx-auto text-center z-10 mt-30 md:mt-30">
+        <div className="">
+            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight  mb-5">
+  <span className="opacity-0 animate-fade-in">Hi</span>{" "}
+  <span className="opacity-0 animate-fade-in-delay-2">I'm</span>{" "} <br />
+  <span className="text-primary opacity-0 animate-fade-in-delay-4 whitespace-nowrap">
+    Abhinand G
+  </span>
+</h1>
+
             <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-4">
                 I'm a motivated entry-level fullstack developer who is eager to contribute
  to innovative projects and collaborate with dynamic teams to deliver high-quality software solutions.
             </p>
 
-            <div className="pt-4 opacity-0 animate-fade-in-delay-4">
-                <a href="#projects" className="cosmic-button"> View My Work</a>
+            <div className="pt-4 opacity-0 animate-fade-in-delay-4 mt-5" >
+                <a href="#projects" className="cosmic-button"> View My Projects</a>
             </div>
 
         </div>
         </div>
 
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center animate-bounce">
-        <span className="text-sm text-muted-foreground mb-2">
-            Scroll
-            </span>
-            <ArrowDown className="h-5 w-5 text-primary"/>
-            </div>
+        <LogoSlider />
+        
+
+
     </section>
     );
 }

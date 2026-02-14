@@ -4,12 +4,12 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
     {
         id: 1,
-        title: "Noteable",
-        description: "A simple note taking web application using react, Tailwind, node.js and MongoDB.",
-        image: "Projects/Noteable.png",
-        tags: ["React", "JavaScript", "Node.js", "MongoDB", "Tailwind CSS"],
-        demoUrl: "https://noteable-1.onrender.com",
-        githubUrl: "https://github.com/Abhinandg2003/Noteable"
+        title: "Unity Heights",
+        description: "Portfolio of Unity Heights Constructions. Developed by me at Algon Solutions.",
+        image: "Projects/UnityHeights.png",
+        tags: ["React", "JavaScript", "Node.js", "Tailwind CSS"],
+        demoUrl: "https://www.unityheights.org/",
+        githubUrl: "#"
     },
     {
         id: 2,
@@ -28,7 +28,16 @@ const projects = [
         tags: ["React", "JavaScript", "Node.js", "MongoDB"],
         demoUrl: "#",
         githubUrl: "https://github.com/Abhinandg2003/Mernblog"
-    }
+    },
+        {
+        id: 4,
+        title: "Noteable",
+        description: "A simple note taking web application using react, Tailwind, node.js and MongoDB.",
+        image: "Projects/Noteable.png",
+        tags: ["React", "JavaScript", "Node.js", "MongoDB", "Tailwind CSS"],
+        demoUrl: "https://noteable-1.onrender.com",
+        githubUrl: "https://github.com/Abhinandg2003/Noteable"
+    },
 ]
 
 export const ProjectsSection = () => {
@@ -40,7 +49,7 @@ export const ProjectsSection = () => {
             </h2>
 
             <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-                Here are some of the projects I've worked on recently. It includes Hobby as well as academic projects.
+                Here are some of the projects I've worked on recently. It includes Hobby, academic, and Industrial projects.
 
             </p>
 
@@ -73,11 +82,13 @@ export const ProjectsSection = () => {
                                             <ExternalLink size={20} />
                                         </a>
                                     )}
+                                    {project.id !== 1 && (
                                     <a href={project.githubUrl}
                                         target="_blank"
                                         className="text-foreground/80 hover:text-primary transition=colors duration-300">
                                         <Github size={20} />
                                     </a>
+                                    )}
 
                                 </div>
                             </div>

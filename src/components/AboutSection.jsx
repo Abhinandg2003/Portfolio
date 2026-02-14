@@ -12,8 +12,8 @@ export const AboutSection =() =>{
 
                     <p className="text-muted-foreground">
                          I have a strong foundation in full-stack web development
- using the MERN stack. Skilled in JavaScript, React.js, Node.js, Express.js, and MongoDB, with experience
- building responsive and user-friendly interfaces.
+ using the MERN stack. Skilled in JavaScript, React.js, Node.js, Next.js, Express.js, and MongoDB, with experience
+ building responsive and user-friendly interfaces, along with several months of industrial experience as intern.
                     </p>
 
                     <p className="text-muted-foreground">
@@ -68,8 +68,8 @@ export const AboutSection =() =>{
 
                             </div>
                              <div className="text-left">
-                                <h4 className="font-semibold text-lg">Project Management</h4>
-                                <p className="text-muted-foreground">Completed a number of Hobby and academic projects that demonstrate my ability to work with a team.</p>
+                                <h4 className="font-semibold text-lg">Experience</h4>
+                                <p className="text-muted-foreground">Has several months of industrial experience as UI/UX Frontened Developer intern at Algon Solutions Pvt Ltd.</p>
 
                             </div>
                         </div>

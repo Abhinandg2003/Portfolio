@@ -6,11 +6,13 @@ const skills =[
     //Frontend
     {name: "HTML",level: 90, category: "Frontend"},
     {name: "CSS",level: 90, category: "Frontend"},
-    {name: "React",level: 90, category: "Frontend"},
+    {name: "React.js",level: 90, category: "Frontend"},
     {name: "JavaScript",level: 85, category: "Frontend"},
     {name : "Tailwind CSS", level: 85, category: "Frontend"},
     {name : "Bootstrap", level: 85, category: "Frontend"},
     {name : "Flutter", level: 75, category: "Frontend"},
+    {name : "Next.js", level: 85, category: "Frontend"},
+    
 
     //Backend
     {name: "MongoDB",level: 90, category: "Backend"},
@@ -24,6 +26,8 @@ const skills =[
     {name : "Postman", level: 90, category: "Tools"},
     {name : "npm", level: 85, category: "Tools"},
     {name : "restful APIs", level: 85, category: "Tools"},
+    {name : "GSAP", level: 85, category: "Tools"},
+    {name : "Framer", level: 75, category: "Tools"},
 ]
 
 const categories = ["all", "frontend", "backend", "tools"];

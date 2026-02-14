@@ -70,7 +70,7 @@ export const ContactSection =() =>{
                 </div>
 
                 <div className="pt-8">
-                    <h4>
+                    <h4 className="mb-4">
                         Connect With Me
                     </h4>
                     <div className="flex space-x-4 justify-center">
