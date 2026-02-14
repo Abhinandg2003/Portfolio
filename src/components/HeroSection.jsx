@@ -6,7 +6,7 @@ export const HeroSection = () => {
     <section 
     id="home" 
     className="relative min-h-screen flex flex-col items-center justify-center px-4">
-    <div className="container max-w-7xl md:max-w-4xl mx-auto text-center z-10 mt-30 md:mt-30">
+    <div className="container max-w-7xl md:max-w-4xl mx-auto text-center z-10 mt-20 md:mt-30">
         <div className="">
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight  mb-5">
   <span className="opacity-0 animate-fade-in">Hi</span>{" "}

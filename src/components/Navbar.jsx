@@ -101,7 +101,8 @@ useEffect(() => {
 }
 >
 
-        <div className="container grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 items-center">
+        <div className="container px-3 sm:px-6 md:px-8 grid grid-cols-2 lg:grid-cols-3 items-center">
+
   {/* Left - Logo */}
   <a className="text-xl md:text-2xl font-bold text-primary flex items-center cursor-pointer">
     <span className="relative z-10">
