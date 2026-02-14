@@ -127,7 +127,31 @@ useEffect(() => {
 >
         <div className="w-full px-0 sm:px-0 md:px-0 lg:px-0 grid grid-cols-2 lg:grid-cols-3 items-center">
           {/* Left - Logo */}
-          <a className="text-xl md:text-2xl font-bold text-primary flex items-center cursor-pointer justify-start pl-8 sm:pl-10 md:pl-16">
+          <a
+  href="#home"
+  onClick={(e) => {
+    e.preventDefault();
+    setIsAutoScrolling(true);
+    setActive("Home");
+
+    const target = document.querySelector("#home");
+    if (!target) return;
+
+    const offset = 80;
+    const position = target.getBoundingClientRect().top + window.scrollY;
+
+    window.scrollTo({
+      top: position - offset,
+      behavior: "smooth",
+    });
+
+    setTimeout(() => {
+      setIsAutoScrolling(false);
+    }, 600);
+  }}
+  className="text-xl md:text-2xl font-bold text-primary flex items-center cursor-pointer justify-start pl-8 sm:pl-10 md:pl-16"
+>
+
             <span className="relative z-10 text-left">
               <span className="text-primary block">Abhinand G</span>
               <span className="block text-sm md:text-base font-normal text-foreground -mt-1">Portfolio</span>
