@@ -35,13 +35,13 @@ export const ThemeToggle = () => {
     return (
         <button onClick={toggleTheme}
             className={cn(
-                " p-2 rounded-full transition-colors duration-300",
+                "  rounded-full transition-colors duration-300",
                 "focus:outline-hidden"
             )}>
             {isDarkMode ? (
-                <Sun className="h-6 w-6 text-orange-400" />
+                <Sun className="h-11 w-11 text-white bg-primary p-3 rounded-full" />
             ) : (
-                <Moon className="h-6 w-6 text-red-800" />
+                <Moon className="h-11 w-11 text-white bg-primary p-3 rounded-full" />
             )}
         </button>
     );

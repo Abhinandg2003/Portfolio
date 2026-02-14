@@ -54,7 +54,7 @@ export const ContactSection =() =>{
 
                     </div>
 
-
+{/* 
                     <div className="flex justify-center space-x-4">
                         <div className="p-3 rounded-full bg-primary/10">
                         <MapPin className= "h-6 w-6 text-primary"/>
@@ -65,7 +65,7 @@ export const ContactSection =() =>{
                             className="text-muted-foreground hover:text-primary transition-colors">Maneed P O, Piravom, Kochi, Kerala</a>
                         </div>
 
-                    </div>
+                    </div> */}
 
                 </div>
 

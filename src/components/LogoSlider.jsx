@@ -81,7 +81,7 @@ export default function LogoSlider() {
           <img
             key={i}
             src={logo}
-            className=" h-10 md:h-20 opacity-80 hover:opacity-100 transition"
+            className=" h-15 md:h-20 opacity-80 hover:opacity-100 transition"
             alt="logo"
           />
         ))}
