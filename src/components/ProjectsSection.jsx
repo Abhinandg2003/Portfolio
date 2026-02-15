@@ -7,12 +7,24 @@ const projects = [
         title: "Unity Heights",
         description: "Portfolio of Unity Heights Constructions. Developed at Algon Solutions.",
         image: "Projects/UnityHeights.png",
-        tags: ["React", "JavaScript", "Node.js", "Tailwind CSS"],
+        tags: ["React", "JavaScript", "HTML","CSS", "Tailwind CSS"],
         demoUrl: "https://www.unityheights.org/",
         githubUrl: "#"
     },
-    {
+
+        {
         id: 2,
+        title: "Tailor Management",
+        description: "Designed and developed the landing page of Tailor management system at Algon Solutions",
+        image: "Projects/Tailorpro.png",
+        tags: ["React.js", "Next.js", "HTML","CSS", "Tailwind CSS","Framer","GSAP"],
+        demoUrl: "https://tailor-pro-umber.vercel.app/",
+        githubUrl: "#"
+    },
+
+
+    {
+        id: 3,
         title: "Cinetunez",
         description: "An emotion and weather based movie and music recommendation mobile app built with Flutter.",
         image: "Projects/Cinetunez.jpg",
@@ -21,7 +33,7 @@ const projects = [
         githubUrl: "https://github.com/Abhinandg2003/Cinetunez"
     },
     {
-        id: 3,
+        id: 4,
         title: "Mini Blog",
         description: "A Simple blogging platform built with MERN stack.",
         image: "Projects/Mernblog.png",
@@ -30,7 +42,7 @@ const projects = [
         githubUrl: "https://github.com/Abhinandg2003/Mernblog"
     },
         {
-        id: 4,
+        id: 5,
         title: "Noteable",
         description: "A simple note taking web application using react, Tailwind, node.js and MongoDB.",
         image: "Projects/Noteable.png",
@@ -42,7 +54,7 @@ const projects = [
 
 export const ProjectsSection = () => {
     return <section id="projects" className="py-24 px-4 relative">
-        <div className="container mx-auto max-w-5xl">
+        <div className="max-w-6xl mx-auto px-3 sm:px-4 md:px-6">
             <h2 className="text-3xl md:text-4xl font-bold mb-5 text-center"> Featured <span className="text-primary" >
                 Projects
             </span>
@@ -75,14 +87,14 @@ export const ProjectsSection = () => {
                             <p className="text-muted-foreground text-sm mb-4">{project.description}</p>
                             <div className="flex justify-between items-center">
                                 <div className="flex space-x-3">
-                                    {project.id !== 3 && (
+                                    {project.id !== 4 && (
                                         <a href={project.demoUrl}
                                             target="_blank"
                                             className="text-foreground/80 hover:text-primary transition=colors duration-300">
                                             <ExternalLink size={20} />
                                         </a>
                                     )}
-                                    {project.id !== 1 && (
+                                    {![1, 2].includes(project.id) && (
                                     <a href={project.githubUrl}
                                         target="_blank"
                                         className="text-foreground/80 hover:text-primary transition=colors duration-300">

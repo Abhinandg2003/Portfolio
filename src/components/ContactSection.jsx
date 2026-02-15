@@ -220,7 +220,7 @@ export const ContactSection =() =>{
             name="details"
             value={form.details}
             onChange={handleChange}
-            placeholder="Describe why do you contact me..."
+            placeholder="Describe why do you want to contact me..."
             rows={5}
             className={`rounded-lg border px-4 py-3 
    text-foreground 
