@@ -90,7 +90,7 @@ export const ProjectsSection = () => {
                                     {project.id !== 4 && (
                                         <a href={project.demoUrl}
                                             target="_blank"
-                                            className="text-foreground/80 hover:text-primary transition=colors duration-300">
+                                            className="text-foreground/80 hover:text-primary transition=colors duration-300 ">
                                             <ExternalLink size={20} />
                                         </a>
                                     )}

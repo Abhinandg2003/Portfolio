@@ -121,7 +121,7 @@ export const ContactSection =() =>{
 
 
 
-    return <section id="contact" className="py-24 px-0  bg-secondary/30">
+    return <section id="contact" className="pt-24 pb-10 px-0  bg-secondary/30">
         <div className="max-w-6xl mx-auto px-3 sm:px-4 md:px-6">
         <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
             Contact <span className="text-primary"> 
@@ -272,50 +272,40 @@ export const ContactSection =() =>{
                 </h3>
 
                 
-                    <div className="flex justify-center space-x-4">
-                        <div className="p-3 rounded-full bg-primary/10">
-                        <Phone className= "h-6 w-6 text-primary"/>
-                        </div>
-                        <div>
-                            <h4>Phone</h4>
-                            <a href="tel:+917012543051" 
-                            target = "_blank"
-                            className="text-muted-foreground hover:text-primary transition-colors">+917012543051</a>
-                        </div>
+                    <div className="space-y-6 text-center">
 
-                    </div>
+  {/* Phone */}
+  <div className="flex flex-col items-center gap-1">
+    <div className="flex items-center gap-2 text-sm text-foreground font-semibold">
+      <Phone className="h-5 w-5" />
+      <span>Phone</span>
+    </div>
+    <a
+      href="tel:+917012543051"
+      className="text-base font-medium hover:text-primary transition-colors"
+    >
+      +91 70125 43051
+    </a>
+  </div>
+
+  {/* Email */}
+  <div className="flex flex-col items-center gap-1">
+    <div className="flex items-center gap-2 text-sm text-foreground font-semibold" >
+      <Mail className="h-5 w-5 bg-" />
+      <span>Email</span>
+    </div>
+    <a
+      href="mailto:abhinandg2003@gmail.com"
+      className="text-base font-medium hover:text-primary transition-colors"
+    >
+      abhinandg2003@gmail.com
+    </a>
+  </div>
+
+</div>
 
 
-                <div className="space-y-6 justify-center">
-                    <div className="flex justify-center space-x-4">
-                        <div className="p-3 rounded-full bg-primary/10">
-                        <Mail className= "h-6 w-6 text-primary"/>
-                        </div>
-                        <div>
-                            <h4>Email</h4>
-                            <a href="mailto:abhinandg2003@gmail.com" 
-                            target = "_blank"
-                            className="text-muted-foreground hover:text-primary transition-colors">abhinandg2003@gmail.com</a>
-                        </div>
-
-                    </div>
-
-{/* 
-                    <div className="flex justify-center space-x-4">
-                        <div className="p-3 rounded-full bg-primary/10">
-                        <MapPin className= "h-6 w-6 text-primary"/>
-                        </div>
-                        <div>
-                            <h4>Location</h4>
-                            <a 
-                            className="text-muted-foreground hover:text-primary transition-colors">Maneed P O, Piravom, Kochi, Kerala</a>
-                        </div>
-
-                    </div> */}
-
-                </div>
-
-                <div className="pt-8">
+                <div className="">
                     <h4 className="mb-4">
                         Connect With Me
                     </h4>
