@@ -25,7 +25,7 @@ export const AboutSection =() =>{
                             Contact Me
                         </a>
 
-                        <a href="https://drive.google.com/file/d/1_P-4A-HPxFIkGVwt-EREWxZ7L92dXEXX/view?usp=sharing" target="_blank" className="cosmic-button">
+                        <a href="https://drive.google.com/file/d/1Yh4Zlz5DGPP-llA25yxG5TyedoKglQx6/view?usp=sharing" target="_blank" className="cosmic-button">
                             Download CV
                         </a>
 
